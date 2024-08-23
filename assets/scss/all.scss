@@ -1,0 +1,21 @@
+//reset
+@import "../../assets/scss/base/reset.scss";
+
+//icons
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap');
+
+//font style
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import "./utils/font-style";
+
+//bs
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables'; //自己專案定義的變數，用於覆蓋 bs 的變數
+@import "../../node_modules/bootstrap";
+
+//space
+@import './utils/space';
+
+//pages
+@import './pages/index.scss';
